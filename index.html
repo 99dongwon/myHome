@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Dongwon's Web</title>
+</head>
+<body>
+  <header>
+      <img src="./images/logo.jpg" alt="logo" id="logo"><!--상대주소-->
+      <h1>Dongwon site</h1>
+  </header>
+  <nav>
+      <ul>
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="profile.html" target="_blank">Profile</a></li>
+          <li><a href="portfolio.html" target="_blank">Portfolio</a></li>
+          <li><a href="contact.html" target="_blank">Contact</a></li>
+      </ul>
+      <hr>
+  </nav>
+  <section>
+      <div id="multimedia">
+        <h2>좋아하는 오디오</h2>
+        <audio src="./media/music01.mp3" controls autoplay loop></audio>
+        <h2>환경을 사랑합니다</h2>
+        <video src="./media/movie.mp4" controls autoplay loop width="50%" height="50%"></video>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jn8ogPVhBiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="start.html" frameborder="0" width="70%" height="240px">
+            지원되지 않는 브라우저입니다.
+        </iframe>
+      </div>
+      <br>
+      <div id="link">
+          <!--문서간의 이동-->
+          <a href="http://www.donga.ac.kr">동아대학교</a> <br>
+          <a href="http://www.naver.com" target="_self">네이버</a> <br>
+          <a href="start.html" target="_blank">start페이지이동</a> <br>
+          <!--문서내 이동-->
+          <a href="#logo">맨위로 이동</a>
+      </div>
+
+      <br><br><br><br><br>
+
+      <div id="login">
+          <form action="#" method="POST">
+              아이디 : <input type="text" name="name"> <br>
+              비밀번호 : <input type="password" name="pass" id="pass"> <br> <!--id는 자바스크립트에서 사용-->
+              <input type="submit" value="확인">
+              <input type="reset" value="취소">
+          </form>
+          <br> <hr>
+      </div>
+
+  </section>
+  <footer>&copy; Dongwon</footer>
+</body>
+</html>
